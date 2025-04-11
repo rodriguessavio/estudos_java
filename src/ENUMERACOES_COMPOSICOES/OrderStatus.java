@@ -1,2 +1,8 @@
-package ENUMERACOES_COMPOSICOES;public enum OrderStatus {
+package ENUMERACOES_COMPOSICOES;
+
+public enum OrderStatus {
+    PENDING_PAYMENT,
+    PROCESSING,
+    SHIPPED,
+    DELIVERED;
 }
