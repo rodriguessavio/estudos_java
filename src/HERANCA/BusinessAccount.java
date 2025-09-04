@@ -14,7 +14,6 @@ public class BusinessAccount extends Account{
     public double getLoanLimit() {
         return loanLimit;
     }
-
     public void setLoanLimit(double loanLimit) {
         this.loanLimit = loanLimit;
     }
